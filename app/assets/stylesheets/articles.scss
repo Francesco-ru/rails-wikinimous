@@ -5,7 +5,8 @@
     display: grid;
     justify-content: center;
     align-items: baseline;
-    text-align: center
+    text-align: center;
+    margin-bottom: 30px;
 }
 
 .article > h2 > a {
@@ -86,5 +87,5 @@ body {
   padding: 5px;
   box-shadow: 1px 1px darkgray;
   color: white;
-
+  margin:10px;
 }
