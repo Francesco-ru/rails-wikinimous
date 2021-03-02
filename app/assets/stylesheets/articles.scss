@@ -1,3 +1,26 @@
 // Place all the styles related to the articles controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+.article {
+    display: grid;
+    justify-content: center;
+    align-items: baseline;
+    text-align: center
+}
+
+.article > h2 > a {
+  text-decoration: none;
+  color: cornflowerblue;
+}
+
+.article > h2 > a:hover {
+  color: burlywood;
+}
+.article > a {
+  text-decoration: none;
+  color: rgb(80, 80, 80)
+}
+
+.article > a:hover {
+  color: rgb(80, 30, 30)
+}

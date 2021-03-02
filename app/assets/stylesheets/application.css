@@ -13,3 +13,26 @@
  *= require_tree .
  *= require_self
  */
+.navbar {
+  background-color: rgb(220,220,220);
+  color: white;
+  font-size: small;
+  font-style: italic;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px
+}
+.navbar > h3 > a {
+  text-decoration: none;
+  color: rgb(100, 100, 100);
+}
+
+.navbar >h3 > a:hover {
+  color: black;
+}
+
+body {
+  background-color: rgb(235,235,235);
+  margin: 0;
+}
