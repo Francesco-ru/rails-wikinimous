@@ -24,3 +24,67 @@
 .article > a:hover {
   color: rgb(80, 30, 30)
 }
+
+.nbar {
+  background-color: rgb(240,240,240);
+  color: white;
+  font-size: small;
+  font-style: italic;
+}
+.nbar > h3 > a {
+  text-decoration: none;
+  color: rgb(100, 100, 100);
+  font-size: initial;
+}
+
+.nbar > h3 > a:hover {
+  color: black;
+}
+
+body {
+  background-color: white;
+  margin: 0;
+}
+
+.nbar > h1 > a {
+  text-decoration: none;
+  color: rgb(100, 100, 100);
+  font-size: x-large;
+}
+
+.nbar > h1 > a:hover {
+  color: black;
+}
+
+.container {
+  margin-top: 50px;
+  padding: 20px;
+}
+
+.container.show {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+}
+
+.container.show > h1 {
+  font-style: italic;
+  color: chocolate;
+  margin-bottom: 40px;
+}
+
+.container.show > p {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  font-size: large;
+  color: rgb(80,80,80);
+}
+
+.container.show > a {
+  background-color: cornflowerblue;
+  border-radius: 4px;
+  padding: 5px;
+  box-shadow: 1px 1px darkgray;
+  color: white;
+
+}

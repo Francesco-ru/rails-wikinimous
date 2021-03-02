@@ -13,7 +13,9 @@
  *= require_tree .
  *= require_self
  */
-.navbar {
+@import "bootstrap/scss/bootstrap"
+
+/*.nbar {
   background-color: rgb(240,240,240);
   color: white;
   font-size: small;
@@ -23,12 +25,12 @@
   align-items: center;
   padding: 20px
 }
-.navbar > h3 > a {
+.nbar > h3 > a {
   text-decoration: none;
   color: rgb(100, 100, 100);
 }
 
-.navbar > h3 > a:hover {
+.nbar > h3 > a:hover {
   color: black;
 }
 
@@ -37,11 +39,12 @@ body {
   margin: 0;
 }
 
-.navbar > h1 > a {
+.nbar > h1 > a {
   text-decoration: none;
   color: rgb(100, 100, 100);
 }
 
-.navbar > h1 > a:hover {
+.nbar > h1 > a:hover {
   color: black;
 }
+*/
